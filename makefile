@@ -1,6 +1,8 @@
 all:
 	mkdir -p ./tmp/bootloader/res
+	mkdir -p ./tmp/atmosphere/config
 	rm -rf ./kosmos_reborn_assets.zip
+	cp ./assets/BCT.ini ./tmp/atmosphere/config/BCT.ini
 	cp ./assets/bootlogo.bmp ./tmp/bootloader/bootlogo.bmp
 	cp ./assets/hekate_ipl.ini ./tmp/bootloader/hekate_ipl.ini
 	cp ./assets/icon_atmosphere.bmp ./tmp/bootloader/res/icon_atmosphere.bmp
