@@ -26,7 +26,6 @@ images:
 	@echo Copied image assets...
 
 configs:
-	@cp ./assets/BCT.ini ./$(BUILD)/atmosphere/config/BCT.ini
 	@cp ./assets/dns.mitm.txt ./$(BUILD)/atmosphere/hosts/emummc.txt
 	@cp ./assets/dns.mitm.txt ./$(BUILD)/atmosphere/hosts/sysmmc.txt
 	@cp ./assets/hekate_ipl.ini ./$(BUILD)/bootloader/hekate_ipl.ini
